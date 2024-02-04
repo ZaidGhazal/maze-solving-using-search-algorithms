@@ -1,0 +1,10 @@
+number_of_trials: 2 # The number of trials to run the simulation. It is an integer.
+maze_size: [10, 10] # The size of the maze. It is a list of two integers, the first one is the number of rows and the second one is the number of columns.
+obsticles_desity: 0.25 # The ratio of the obstacles in the maze. It is a float between 0 and 1.
+start_location: [0, 0] # The start location of the robot. It is a list of two integers, the first one is the row and the second one is the column.
+goal_location: [9, 9] # The goal location of the robot. It is a list of two integers, the first one is the row and the second one is the column.
+results_saving_directory: results ## This will create a directory and save the results in it.
+## The following parameters are used to control the visualization of the simulation.
+visualization_latency: 0.01 # in seconds. This is the time the visualization waits between each step, and it is used to control the speed of the visualization.
+visualization_wait_until_close_time: 5 # in seconds. This is the time the visualization waits after the simulation is finished, and it is used to control the time the visualization is closed after the simulation is finished.
+
