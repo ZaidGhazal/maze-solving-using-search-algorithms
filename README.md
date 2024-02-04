@@ -20,11 +20,11 @@ Note that the maze is a 2D grid where the start is represented by a 'green circl
 
 ![Alt text](media/A-star-example.gif)
 
-### Breadth First Algorithm
+### Breadth-First Search Algorithm
 
 ![Alt text](media/BFS-example.gif)
 
-### Depth First Algorithm
+### Depth-First Search Algorithm
 
 ![Alt text](media/DFS-example.gif)
 
